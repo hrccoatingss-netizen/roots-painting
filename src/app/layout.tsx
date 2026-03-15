@@ -1,63 +1,71 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, DM_Serif_Display } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const dmSerif = DM_Serif_Display({
+  weight: "400",
+  subsets: ["latin"],
+  variable: "--font-dm-serif",
+});
 
 export const metadata: Metadata = {
-  title: "Roots Painting - Professional Painting in Green Bay, WI | 14+ Years Experience",
+  title:
+    "Painted Roots LLC - Women-Owned Painting Company in Riverview, FL | Tampa Bay Area",
   description:
-    "Roots Painting provides professional interior and exterior painting, cabinet painting, deck staining, and color consultation in Green Bay, WI. 5.0 stars from 89 reviews. Call (906) 914-4021 for a free estimate.",
+    "Painted Roots LLC is a women-owned painting company in Riverview, FL serving the Tampa Bay area. Interior & exterior painting with quality, care, and attention to detail. Call (813) 830-3279 for a free quote.",
   keywords:
-    "painting company Green Bay WI, interior painting, exterior painting, cabinet painting, deck staining, color consultation, painter near me, Green Bay painter",
+    "painting company Riverview FL, women-owned painter Tampa Bay, interior painting, exterior painting, painter near me, Riverview painter, Tampa Bay painting",
   openGraph: {
-    title: "Roots Painting - Professional Painting in Green Bay, WI",
+    title: "Painted Roots LLC - Women-Owned Painting in Riverview, FL",
     description:
-      "14+ years of trusted painting services in Green Bay, WI. Interior, exterior, cabinets, decks & more. 5.0 stars from 89 reviews.",
-    url: "https://rootspainting.com",
-    siteName: "Roots Painting",
+      "Tampa Bay's freshest painting team. Women-owned, locally rooted, and dedicated to quality. Interior & exterior painting services.",
+    url: "https://paintedrootsllc.com",
+    siteName: "Painted Roots LLC",
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Roots Painting - Professional Painting in Green Bay, WI",
+    title: "Painted Roots LLC - Women-Owned Painting in Riverview, FL",
     description:
-      "14+ years of trusted painting services in Green Bay, WI. 5.0 stars from 89 reviews.",
+      "Tampa Bay's freshest painting team. Women-owned, locally rooted, and dedicated to quality.",
   },
-  metadataBase: new URL("https://rootspainting.com"),
+  metadataBase: new URL("https://paintedrootsllc.com"),
   alternates: { canonical: "/" },
 };
 
 const localBusinessJsonLd = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
-  "@id": "https://rootspainting.com",
-  name: "Roots Painting",
+  "@id": "https://paintedrootsllc.com",
+  name: "Painted Roots LLC",
   description:
-    "Professional painting services in Green Bay, WI. Interior, exterior, cabinet painting, deck & fence staining, and color consultation.",
-  url: "https://rootspainting.com",
-  telephone: "+19069144021",
-  email: "info@rootspainting.com",
+    "Women-owned painting company in Riverview, FL serving the Tampa Bay area. Interior and exterior painting with quality, care, and attention to detail.",
+  url: "https://paintedrootsllc.com",
+  telephone: "+18138303279",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Green Bay",
-    addressRegion: "WI",
+    addressLocality: "Riverview",
+    addressRegion: "FL",
+    postalCode: "33579",
     addressCountry: "US",
   },
   areaServed: [
-    { "@type": "City", name: "Green Bay", addressRegion: "WI" },
-    { "@type": "City", name: "Howard", addressRegion: "WI" },
+    { "@type": "City", name: "Riverview", addressRegion: "FL" },
+    { "@type": "City", name: "Tampa", addressRegion: "FL" },
+    { "@type": "City", name: "Brandon", addressRegion: "FL" },
+    { "@type": "City", name: "Valrico", addressRegion: "FL" },
+    { "@type": "City", name: "Lithia", addressRegion: "FL" },
+    { "@type": "City", name: "Ruskin", addressRegion: "FL" },
+    { "@type": "City", name: "Sun City Center", addressRegion: "FL" },
+    { "@type": "City", name: "Apollo Beach", addressRegion: "FL" },
   ],
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: "5.0",
-    reviewCount: "89",
-  },
   priceRange: "$$",
-  openingHours: "Mo-Fr 07:00-18:00",
+  openingHours: "Mo-Fr 08:00-18:00",
+  sameAs: ["https://www.facebook.com/PaintedRootsLLC/"],
 };
 
 export default function RootLayout({
@@ -66,14 +74,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en" className={`${inter.variable} ${dmSerif.variable}`}>
       <head>
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(localBusinessJsonLd),
+          }}
         />
       </head>
-      <body className="bg-white text-gray-900 antialiased">
+      <body className="bg-surface text-gray-900 antialiased font-sans">
         <Header />
         <main>{children}</main>
         <Footer />
