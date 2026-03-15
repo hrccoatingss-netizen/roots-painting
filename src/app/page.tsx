@@ -7,63 +7,29 @@ export const metadata: Metadata = {
   title:
     "Painted Roots LLC - Women-Owned Painting Company | Riverview, FL | Tampa Bay",
   description:
-    "Painted Roots LLC is a women-owned painting company in Riverview, FL. Interior & exterior painting, accent walls, color consultation. Fresh perspectives, flawless results. Call (813) 830-3279.",
+    "Painted Roots LLC is a women-owned painting company in Riverview, FL. Interior & exterior painting, cabinet refinishing, color consultation. Fresh perspectives, flawless results. Call (813) 830-3279.",
 };
 
 const services = [
   {
     title: "Interior Painting",
     desc: "Transform your living spaces with flawless interior painting. From single rooms to whole-home makeovers, we bring fresh color and clean lines to every wall.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-      </svg>
-    ),
+    image: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=800&q=80",
   },
   {
     title: "Exterior Painting",
     desc: "Protect and beautify your home's exterior. We use premium paints and proper prep to create a finish that stands up to Florida's sun and storms.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
-      </svg>
-    ),
+    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=800&q=80",
   },
   {
-    title: "Accent Walls",
-    desc: "Make a bold statement with a perfectly painted accent wall. We help you choose the right color and finish to create a stunning focal point.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Touch-Up & Refresh",
-    desc: "Scuffs, chips, and fading happen. Our touch-up service brings your existing paint job back to life without a full repaint.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
-      </svg>
-    ),
+    title: "Cabinet Refinishing",
+    desc: "Give your kitchen a brand new look without a full remodel. Our cabinet refinishing brings new life to tired cabinetry with a smooth, durable finish.",
+    image: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&q=80",
   },
   {
     title: "Color Consultation",
     desc: "Not sure what colors to choose? We help you find the perfect palette that matches your style, lighting, and vision for each room.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zm0 0h12a2 2 0 002-2v-4a2 2 0 00-2-2h-2.343M11 7.343l1.657-1.657a2 2 0 012.828 0l2.829 2.829a2 2 0 010 2.828l-8.486 8.485M7 17h.01" />
-      </svg>
-    ),
-  },
-  {
-    title: "Small Projects Welcome",
-    desc: "No job is too small. From a single room to a quick refresh before guests arrive, we bring the same care and quality to every project.",
-    icon: (
-      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      </svg>
-    ),
+    image: "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=800&q=80",
   },
 ];
 
@@ -90,69 +56,53 @@ const processSteps = [
   },
 ];
 
-const whyPaintedRoots = [
+const promiseCards = [
   {
-    title: "Women-Owned",
-    desc: "Founded by Nicole and Kendra, bringing a fresh perspective and genuine passion to every project.",
+    title: "Quality Guarantee",
+    desc: "We stand behind every brushstroke. If you are not 100% satisfied, we will make it right. Premium paints, proper prep, and a finish that lasts.",
     icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
-      </svg>
-    ),
-  },
-  {
-    title: "Detail-Oriented",
-    desc: "We sweat the small stuff. Clean lines, proper prep, and a finish that looks professional every time.",
-    icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
       </svg>
     ),
   },
   {
-    title: "Locally Rooted",
-    desc: "We live and work in Tampa Bay. When you hire Painted Roots, you are supporting a local small business.",
+    title: "Transparent Pricing",
+    desc: "No hidden fees, no surprise charges. You get a clear, detailed estimate upfront so you know exactly what to expect before we start.",
     icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
       </svg>
     ),
   },
   {
-    title: "Fresh Perspective",
-    desc: "New energy, new ideas, and a genuine love for transforming spaces. We bring your vision to life.",
+    title: "Clean & Respectful",
+    desc: "We treat your home like our own. Furniture covered, floors protected, and we clean up thoroughly when the job is done.",
     icon: (
-      <svg className="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
+      <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
       </svg>
     ),
   },
 ];
 
-const aspirations = [
-  {
-    quote: "Quality work with attention to detail",
-    label: "Our Promise",
-  },
-  {
-    quote: "Reliable and friendly service",
-    label: "Our Approach",
-  },
-  {
-    quote: "A fresh perspective that brings your vision to life",
-    label: "Our Difference",
-  },
+const galleryImages = [
+  { src: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&q=80", alt: "Beautiful interior living space with fresh paint" },
+  { src: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=600&q=80", alt: "Modern home exterior with professional paint job" },
+  { src: "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?w=600&q=80", alt: "Freshly painted bedroom with warm tones" },
+  { src: "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80", alt: "Kitchen with refinished cabinets" },
+  { src: "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?w=600&q=80", alt: "Clean modern bathroom with fresh paint" },
+  { src: "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&q=80", alt: "Modern house with beautiful exterior finish" },
 ];
 
 const serviceAreas = [
   "Riverview",
-  "Tampa",
   "Brandon",
   "Valrico",
   "Lithia",
+  "FishHawk",
+  "Tampa",
   "Ruskin",
-  "Sun City Center",
   "Apollo Beach",
 ];
 
@@ -210,82 +160,77 @@ export default function HomePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
 
-      {/* ============ HERO ============ */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-primary via-primary-dark to-primary">
-        {/* Organic pattern overlay */}
-        <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-10 left-10 w-64 h-64 rounded-full bg-accent blur-3xl" />
-          <div className="absolute bottom-10 right-10 w-80 h-80 rounded-full bg-primary-light blur-3xl" />
-          <div className="absolute top-1/2 left-1/3 w-40 h-40 rounded-full bg-accent-light blur-2xl" />
-        </div>
-        {/* Leaf/organic shapes via CSS */}
-        <div className="absolute top-20 right-20 w-32 h-32 border-2 border-white/10 rounded-full" />
-        <div className="absolute bottom-20 left-16 w-24 h-24 border-2 border-white/5 rounded-full" />
-        <div className="absolute top-40 right-1/3 w-16 h-16 border border-white/5 rounded-full" />
+      {/* ============ HERO — Full-Bleed Image ============ */}
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
+        {/* Background Image */}
+        <img
+          src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80"
+          alt="Beautiful interior home with fresh paint"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        {/* Dark Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/75 via-black/60 to-black/40" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-36 relative">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-36 relative z-10 w-full">
           <div className="max-w-3xl animate-fade-in-up">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-8">
-              <svg className="w-4 h-4 text-yellow-400" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-              </svg>
-              <span className="text-sm text-white/90 font-medium">
-                Women-Owned & Proudly Local
+            {/* Badges */}
+            <div className="flex flex-wrap gap-3 mb-8">
+              <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2">
+                <svg className="w-4 h-4 text-accent-light" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                </svg>
+                <span className="text-sm text-white/90 font-medium">Women-Owned & Operated</span>
+              </span>
+              <span className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2">
+                <svg className="w-4 h-4 text-accent-light" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                <span className="text-sm text-white/90 font-medium">Serving Tampa Bay</span>
               </span>
             </div>
 
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-[family-name:var(--font-dm-serif)] text-white leading-tight mb-6">
-              Fresh Perspectives,
-              <br />
-              <span className="text-accent-light">Flawless Results</span>
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-[family-name:var(--font-dm-serif)] text-white leading-tight mb-4">
+              Painted Roots LLC
             </h1>
-            <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-xl leading-relaxed">
-              Tampa Bay&apos;s newest painting team bringing quality, care, and
-              attention to detail to every home we touch.
+            <p className="text-xl md:text-2xl text-accent-light font-[family-name:var(--font-dm-serif)] mb-6">
+              Riverview&apos;s Newest Women-Owned Painting Company
+            </p>
+            <p className="text-lg text-gray-300 mb-10 max-w-xl leading-relaxed">
+              Fresh perspectives, flawless results. Nicole and Kendra bring genuine
+              care and attention to detail to every home they touch.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
               <Link
                 href="#contact"
-                className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-white px-8 py-4 rounded-full font-semibold text-center transition-all shadow-lg hover:shadow-xl"
+                className="bg-gradient-to-r from-accent to-accent-light hover:from-accent-dark hover:to-accent text-white px-8 py-4 rounded-full font-semibold text-center transition-all shadow-lg hover:shadow-xl text-lg"
               >
                 Get Your Free Quote
               </Link>
               <a
                 href="tel:8138303279"
-                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-semibold text-center transition-all"
+                className="bg-white/10 hover:bg-white/20 backdrop-blur-sm border border-white/20 text-white px-8 py-4 rounded-full font-semibold text-center transition-all text-lg"
               >
                 Call (813) 830-3279
               </a>
             </div>
+          </div>
+        </div>
+      </section>
 
-            {/* Social proof badges */}
-            <div className="flex flex-wrap gap-4">
-              {[
-                "Women-Owned",
-                "Tampa Bay Local",
-                "Referral-Based",
-              ].map((badge) => (
-                <span
-                  key={badge}
-                  className="inline-flex items-center gap-1.5 text-sm text-white/80"
-                >
-                  <svg
-                    className="w-4 h-4 text-accent-light"
-                    fill="currentColor"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clipRule="evenodd"
-                    />
-                  </svg>
-                  {badge}
-                </span>
-              ))}
-            </div>
+      {/* ============ TRUST BAR ============ */}
+      <section className="bg-primary py-5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-wrap justify-center gap-x-10 gap-y-3">
+            {["Women-Owned", "Licensed & Insured", "Free Estimates", "Serving Tampa Bay"].map((item) => (
+              <span key={item} className="inline-flex items-center gap-2 text-white/90 text-sm font-medium">
+                <svg className="w-5 h-5 text-accent-light" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                </svg>
+                {item}
+              </span>
+            ))}
           </div>
         </div>
       </section>
@@ -317,7 +262,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ============ SERVICES ============ */}
+      {/* ============ SERVICES — Image Background Cards ============ */}
       <section id="services" className="py-20 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
@@ -328,33 +273,80 @@ export default function HomePage() {
               Our Painting Services
             </h2>
             <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-              From full home painting to small touch-ups, we bring the same
+              From full home painting to cabinet refinishing, we bring the same
               quality and care to every project.
             </p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid sm:grid-cols-2 gap-8">
             {services.map((s) => (
               <div
                 key={s.title}
-                className="bg-white rounded-xl p-8 border-t-4 border-accent/60 hover:border-accent hover:shadow-lg transition-all group"
+                className="relative h-80 rounded-2xl overflow-hidden group cursor-pointer"
               >
-                <div className="w-14 h-14 bg-primary/10 rounded-lg flex items-center justify-center text-primary mb-5 group-hover:bg-primary group-hover:text-white transition-colors">
-                  {s.icon}
+                <img
+                  src={s.image}
+                  alt={s.title}
+                  loading="lazy"
+                  className="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
+                  <h3 className="text-2xl font-[family-name:var(--font-dm-serif)] mb-2">
+                    {s.title}
+                  </h3>
+                  <p className="text-sm text-gray-200 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    {s.desc}
+                  </p>
                 </div>
-                <h3 className="text-lg font-bold text-gray-900 mb-2">
-                  {s.title}
-                </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
-                  {s.desc}
-                </p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* ============ OUR PROCESS ============ */}
+      {/* ============ BEFORE / AFTER ============ */}
       <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-14">
+            <span className="text-sm font-semibold text-accent uppercase tracking-wider">
+              The Difference
+            </span>
+            <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-dm-serif)] text-gray-900 mt-2">
+              Before & After
+            </h2>
+            <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
+              See how a fresh coat of paint can completely transform a space.
+            </p>
+          </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            <div className="relative rounded-2xl overflow-hidden group">
+              <img
+                src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?w=600&q=80"
+                alt="Room before painting - worn and outdated"
+                loading="lazy"
+                className="w-full h-80 object-cover"
+              />
+              <div className="absolute top-4 left-4 bg-red-500/90 text-white px-4 py-1.5 rounded-full text-sm font-semibold">
+                Before
+              </div>
+            </div>
+            <div className="relative rounded-2xl overflow-hidden group">
+              <img
+                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?w=600&q=80"
+                alt="Room after painting - fresh and modern"
+                loading="lazy"
+                className="w-full h-80 object-cover"
+              />
+              <div className="absolute top-4 left-4 bg-primary/90 text-white px-4 py-1.5 rounded-full text-sm font-semibold">
+                After
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ============ OUR PROCESS ============ */}
+      <section className="py-20 bg-surface-alt">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <span className="text-sm font-semibold text-accent uppercase tracking-wider">
@@ -385,7 +377,7 @@ export default function HomePage() {
       </section>
 
       {/* ============ MEET THE FOUNDERS ============ */}
-      <section className="py-20 bg-surface">
+      <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <span className="text-sm font-semibold text-accent uppercase tracking-wider">
@@ -395,50 +387,73 @@ export default function HomePage() {
               Meet the Founders
             </h2>
             <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
-              Two passionate women on a mission to transform homes across Tampa
-              Bay.
+              Two passionate women on a mission to transform homes across Tampa Bay.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Nicole */}
-            <div className="bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-24 h-24 bg-gradient-to-br from-primary to-primary-light rounded-full mx-auto mb-5 flex items-center justify-center">
-                <span className="text-2xl font-bold text-white">NK</span>
-              </div>
-              <h3 className="text-xl font-bold text-gray-900">
-                Nicole Kojak
-              </h3>
-              <p className="text-accent font-medium text-sm mb-3">
-                Co-Founder & Owner
-              </p>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                Nicole brings a sharp eye for detail and a deep commitment to
-                quality. She believes every home deserves a finish that reflects
-                the care put into it, and she makes sure every project meets her
-                high standards.
-              </p>
+          <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto items-center">
+            {/* Image Side */}
+            <div className="relative rounded-2xl overflow-hidden">
+              <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&q=80"
+                alt="Beautiful interior space showcasing quality painting work"
+                loading="lazy"
+                className="w-full h-[500px] object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-primary/30 to-transparent" />
             </div>
-            {/* Kendra */}
-            <div className="bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-md transition-shadow">
-              <div className="w-24 h-24 bg-gradient-to-br from-accent to-accent-light rounded-full mx-auto mb-5 flex items-center justify-center">
-                <span className="text-2xl font-bold text-white">K</span>
+            {/* Founder Cards */}
+            <div className="space-y-6">
+              {/* Nicole */}
+              <div className="bg-surface rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-start gap-5">
+                  <div className="w-16 h-16 bg-gradient-to-br from-primary to-primary-light rounded-full flex-shrink-0 flex items-center justify-center">
+                    <span className="text-lg font-bold text-white">NK</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">Nicole Kojak</h3>
+                    <p className="text-accent font-medium text-sm mb-2">Co-Founder & Owner</p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Nicole brings a sharp eye for detail and a deep commitment to
+                      quality. She believes every home deserves a finish that reflects
+                      the care put into it, and she makes sure every project meets her
+                      high standards.
+                    </p>
+                  </div>
+                </div>
               </div>
-              <h3 className="text-xl font-bold text-gray-900">Kendra</h3>
-              <p className="text-accent font-medium text-sm mb-3">
-                Co-Founder & Owner
-              </p>
-              <p className="text-sm text-gray-600 leading-relaxed">
-                Kendra&apos;s friendly approach and reliable work ethic make
-                every client feel at ease. She is passionate about building
-                lasting relationships and delivering results that exceed
-                expectations.
-              </p>
+              {/* Kendra */}
+              <div className="bg-surface rounded-2xl p-8 shadow-sm hover:shadow-md transition-shadow">
+                <div className="flex items-start gap-5">
+                  <div className="w-16 h-16 bg-gradient-to-br from-accent to-accent-light rounded-full flex-shrink-0 flex items-center justify-center">
+                    <span className="text-lg font-bold text-white">K</span>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold text-gray-900">Kendra</h3>
+                    <p className="text-accent font-medium text-sm mb-2">Co-Founder & Owner</p>
+                    <p className="text-sm text-gray-600 leading-relaxed">
+                      Kendra&apos;s friendly approach and reliable work ethic make
+                      every client feel at ease. She is passionate about building
+                      lasting relationships and delivering results that exceed
+                      expectations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <Link
+                href="/about"
+                className="inline-flex items-center gap-2 text-primary font-semibold hover:text-primary-dark transition-colors mt-2"
+              >
+                Read Our Full Story
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </Link>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ============ WHY PAINTED ROOTS ============ */}
+      {/* ============ OUR PROMISE (Aspiration Section) ============ */}
       <section className="py-20 bg-primary relative overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-10 right-20 w-48 h-48 rounded-full bg-accent blur-3xl" />
@@ -447,22 +462,26 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <div className="text-center mb-14">
             <span className="text-sm font-semibold text-accent-light uppercase tracking-wider">
-              Why Choose Us
+              Our Commitment
             </span>
             <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-dm-serif)] text-white mt-2">
-              Why Painted Roots
+              Our Promise to You
             </h2>
+            <p className="text-gray-300 mt-3 max-w-2xl mx-auto">
+              We may be new, but our standards are anything but. Here is what you
+              can expect from every Painted Roots project.
+            </p>
           </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {whyPaintedRoots.map((item) => (
+          <div className="grid md:grid-cols-3 gap-8">
+            {promiseCards.map((item) => (
               <div
                 key={item.title}
-                className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl p-6 text-center hover:bg-white/15 transition-colors"
+                className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-2xl p-8 text-center hover:bg-white/15 transition-colors"
               >
-                <div className="w-14 h-14 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-4 text-accent-light">
+                <div className="w-16 h-16 bg-white/10 rounded-full flex items-center justify-center mx-auto mb-5 text-accent-light">
                   {item.icon}
                 </div>
-                <h3 className="text-lg font-bold text-white mb-2">
+                <h3 className="text-xl font-bold text-white mb-3">
                   {item.title}
                 </h3>
                 <p className="text-sm text-gray-300 leading-relaxed">
@@ -474,38 +493,38 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ============ WHAT PEOPLE SAY (Aspiration Cards) ============ */}
-      <section className="py-20 bg-surface-alt">
+      {/* ============ PHOTO GALLERY ============ */}
+      <section className="py-20 bg-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <span className="text-sm font-semibold text-accent uppercase tracking-wider">
-              Our Values
+              Our Work
             </span>
             <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-dm-serif)] text-gray-900 mt-2">
-              What Drives Us
+              Photo Gallery
             </h2>
+            <p className="text-gray-600 mt-3 max-w-2xl mx-auto">
+              A glimpse at the kind of transformations we create for homeowners across Tampa Bay.
+            </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-8">
-            {aspirations.map((item) => (
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            {galleryImages.map((img, i) => (
               <div
-                key={item.label}
-                className="bg-white rounded-xl p-8 shadow-sm text-center border border-gray-100"
+                key={i}
+                className="relative rounded-xl overflow-hidden group aspect-[4/3]"
               >
-                <div className="w-12 h-12 bg-accent/10 rounded-full flex items-center justify-center mx-auto mb-5">
-                  <svg
-                    className="w-6 h-6 text-accent"
-                    fill="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  loading="lazy"
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                <div className="absolute inset-0 bg-primary/0 group-hover:bg-primary/30 transition-colors duration-300" />
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <svg className="w-10 h-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7" />
                   </svg>
                 </div>
-                <p className="text-lg font-[family-name:var(--font-dm-serif)] text-gray-900 mb-4 leading-relaxed">
-                  &ldquo;{item.quote}&rdquo;
-                </p>
-                <span className="inline-block bg-primary/10 text-primary text-xs font-semibold px-3 py-1 rounded-full">
-                  {item.label}
-                </span>
               </div>
             ))}
           </div>
@@ -555,17 +574,25 @@ export default function HomePage() {
       </section>
 
       {/* ============ CONTACT ============ */}
-      <section id="contact" className="py-20 bg-surface-alt">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section id="contact" className="relative py-20 overflow-hidden">
+        {/* Background image */}
+        <img
+          src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=1920&q=80"
+          alt="Professional painter at work"
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-primary/90" />
+
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid lg:grid-cols-2 gap-16">
             <div>
-              <span className="text-sm font-semibold text-accent uppercase tracking-wider">
+              <span className="text-sm font-semibold text-accent-light uppercase tracking-wider">
                 Get Started
               </span>
-              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-dm-serif)] text-gray-900 mt-2 mb-6">
+              <h2 className="text-3xl md:text-4xl font-[family-name:var(--font-dm-serif)] text-white mt-2 mb-6">
                 Ready for a Fresh Look?
               </h2>
-              <p className="text-gray-600 leading-relaxed mb-8">
+              <p className="text-gray-300 leading-relaxed mb-8">
                 Whether you have a clear vision or need help choosing colors, we
                 are here to help. Fill out the form and Nicole or Kendra will
                 reach out to schedule your free consultation.
@@ -573,69 +600,40 @@ export default function HomePage() {
               <div className="space-y-4">
                 <a
                   href="tel:8138303279"
-                  className="flex items-center gap-3 text-gray-700 hover:text-primary transition-colors"
+                  className="flex items-center gap-3 text-gray-200 hover:text-white transition-colors"
                 >
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                      />
+                  <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center text-accent-light">
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                     </svg>
                   </div>
-                  <span className="font-medium">(813) 830-3279</span>
+                  <span className="font-medium text-lg">(813) 830-3279</span>
                 </a>
                 <a
                   href="https://www.facebook.com/PaintedRootsLLC/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-3 text-gray-700 hover:text-primary transition-colors"
+                  className="flex items-center gap-3 text-gray-200 hover:text-white transition-colors"
                 >
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
-                    <svg
-                      className="w-5 h-5"
-                      fill="currentColor"
-                      viewBox="0 0 24 24"
-                    >
+                  <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center text-accent-light">
+                    <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                       <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
                     </svg>
                   </div>
-                  <span className="font-medium">Facebook</span>
+                  <span className="font-medium text-lg">Facebook</span>
                 </a>
-                <div className="flex items-center gap-3 text-gray-700">
-                  <div className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary">
-                    <svg
-                      className="w-5 h-5"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-                      />
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
-                      />
+                <div className="flex items-center gap-3 text-gray-200">
+                  <div className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center text-accent-light">
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                     </svg>
                   </div>
-                  <span className="font-medium">Riverview, FL 33579</span>
+                  <span className="font-medium text-lg">Riverview, FL 33579</span>
                 </div>
               </div>
             </div>
-            <div className="bg-white rounded-2xl p-8 shadow-sm">
+            <div className="bg-white rounded-2xl p-8 shadow-xl">
               <ContactForm />
             </div>
           </div>

@@ -90,16 +90,16 @@ export default function Footer() {
                 <span className="text-sm text-gray-300">Exterior Painting</span>
               </li>
               <li>
-                <span className="text-sm text-gray-300">Accent Walls</span>
-              </li>
-              <li>
-                <span className="text-sm text-gray-300">Touch-Up & Refresh</span>
+                <span className="text-sm text-gray-300">Cabinet Refinishing</span>
               </li>
               <li>
                 <span className="text-sm text-gray-300">Color Consultation</span>
               </li>
               <li>
-                <span className="text-sm text-gray-300">Small Projects</span>
+                <span className="text-sm text-gray-300">Accent Walls</span>
+              </li>
+              <li>
+                <span className="text-sm text-gray-300">Touch-Up & Refresh</span>
               </li>
             </ul>
           </div>
